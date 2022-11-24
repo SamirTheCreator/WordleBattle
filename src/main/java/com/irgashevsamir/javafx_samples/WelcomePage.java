@@ -4,14 +4,10 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-import java.net.URL;
-
 public class WelcomePage extends Application {
+
     public static void main(String[] args) {
         launch(args);
     }
@@ -21,8 +17,7 @@ public class WelcomePage extends Application {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("WelcomePage.fxml"));
             Scene scene = new Scene(root);
-            stage.setFullScreen(true);
-            scene.getStylesheets().add(getClass().getResource("WelcomePage.css").toExternalForm());
+
             stage.setScene(scene);
             stage.show();
         }

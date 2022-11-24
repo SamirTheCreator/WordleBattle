@@ -1,5 +1,25 @@
-AnchorPane {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+.button{
+
+    -fx-background-color:"white";
+    -fx-background-radius: 5,5,4;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-text-alignment: center;
+}
+
+.button:hover {
+    -fx-background-color: "grey";
+}
+
+.text-input {
+    -fx-alignment: center ;
+    -fx-text-fill: -fx-text-inner-color;
+    -fx-highlight-fill: derive(-fx-control-inner-background,-20%);
+    -fx-highlight-text-fill: -fx-text-inner-color;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 3, 2;
+    -fx-cursor: text;
+    -fx-padding: 0.333333em 0.583em 0.333333em 0.583em; /* 4 7 4 7 */
 }
