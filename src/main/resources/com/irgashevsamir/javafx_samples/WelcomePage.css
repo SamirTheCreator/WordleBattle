@@ -1,18 +1,20 @@
+Label {
+    -fx-color: brown;
+}
 
 
 .button{
-
     -fx-background-color:"white";
-    -fx-background-radius: 5,5,4;
-    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-border-radius: 10px;
     -fx-text-alignment: center;
 }
 
 .button:hover {
-    -fx-background-color: "grey";
+    -fx-background-color: #d2d2d2;
+    -fx-cursor: hand;
 }
 
-.text-input {
+TextField{
     -fx-alignment: center ;
     -fx-text-fill: -fx-text-inner-color;
     -fx-highlight-fill: derive(-fx-control-inner-background,-20%);

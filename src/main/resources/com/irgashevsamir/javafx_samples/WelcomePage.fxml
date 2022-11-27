@@ -3,35 +3,56 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #32a852;" stylesheets="@WelcomePage.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.irgashevsamir.javafx_samples.WelcomePageController">
+<VBox prefHeight="600.0" prefWidth="800.0" style="-fx-alignment: center; -fx-background-color: #32a852;" stylesheets="@WelcomePage.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.irgashevsamir.javafx_samples.WelcomePageController">
    <children>
-      <Label layoutX="208.0" layoutY="94.0" text="Welcome to Wordle Battle!" textAlignment="CENTER" textFill="WHITE">
+      <Label style="-fx-label-padding: 30;" text="Welcome to Wordle Battle!" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="Comic Sans MS Bold" size="29.0" />
          </font>
       </Label>
-      <TextField fx:id="name" layoutX="235.0" layoutY="237.0" promptText="Name">
+      <VBox prefHeight="118.0" prefWidth="800.0" style="-fx-spacing: 30;">
+         <children>
+            <HBox prefHeight="111.0" prefWidth="487.0" style="-fx-alignment: center; -fx-spacing: 20;">
+               <children>
+                  <VBox prefHeight="100.0" prefWidth="311.0" style="-fx-alignment: center; -fx-spacing: 5;">
+                     <children>
+                        <TextField fx:id="username" alignment="TOP_LEFT" prefHeight="48.0" prefWidth="311.0" promptText="Username" style="-fx-border-radius: 10%; -fx-alignment: center;">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="password" prefHeight="48.0" prefWidth="311.0" promptText="Password" style="-fx-border-radius: 50; -fx-alignment: center;">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-alignment: center; -fx-spacing: 15;">
+         <children>
+            <Button fx:id="login_btn" mnemonicParsing="false" onAction="#login" text="Log In" textFill="#32a852">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="signup_btn" mnemonicParsing="false" onAction="#signup" text="Sign Up" textFill="#32a852">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Label fx:id="error" textFill="#c62323">
          <font>
-            <Font name="Comic Sans MS Bold" size="20.0" />
-         </font>
-      </TextField>
-      <Button layoutX="517.0" layoutY="237.0" mnemonicParsing="false" onAction="#validateButton" prefHeight="40.0" prefWidth="54.0" text="OK" textFill="#32a852">
-         <font>
-            <Font size="19.0" />
-         </font>
-      </Button>
-      <Button fx:id="join_btn" disable="true" layoutX="235.0" layoutY="296.0" mnemonicParsing="false" onAction="#joinTheGame" prefHeight="40.0" prefWidth="150.0" text="Join" textFill="#32a852">
-         <font>
-            <Font size="19.0" />
-         </font>
-      </Button>
-      <Button fx:id="host_btn" disable="true" layoutX="418.0" layoutY="297.0" mnemonicParsing="false" onAction="#hostTheGame" prefHeight="40.0" prefWidth="153.0" text="Host" textFill="#32a852">
-         <font>
-            <Font size="19.0" />
-         </font>
-      </Button>
+            <Font size="18.0" />
+         </font></Label>
    </children>
-</AnchorPane>
+</VBox>
