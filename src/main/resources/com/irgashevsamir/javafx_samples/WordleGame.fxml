@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="v" prefHeight="600.0" prefWidth="800.0" style="-fx-alignment: center;" stylesheets="@WordleGame.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.irgashevsamir.javafx_samples.WordleGame">
+   <children>
+      <VBox fx:id="vbox" prefHeight="403.0" prefWidth="411.0" style="-fx-alignment: center;">
+         <children>
+            <HBox fx:id="hbox1" prefHeight="61.0" prefWidth="411.0" style="-fx-alignment: center; -fx-spacing: 10;">
+               <children>
+                  <Label fx:id="l00" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l01" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l02" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l03" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l04" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="61.0" prefWidth="411.0" style="-fx-alignment: center; -fx-spacing: 10;">
+               <children>
+                  <Label fx:id="l10" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l11" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l12" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l13" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l14" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="61.0" prefWidth="411.0" style="-fx-alignment: center; -fx-spacing: 10;">
+               <children>
+                  <Label fx:id="l20" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l21" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l22" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l23" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l24" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="61.0" prefWidth="411.0" style="-fx-alignment: center; -fx-spacing: 10;">
+               <children>
+                  <Label fx:id="l30" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l31" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l32" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l33" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l34" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="61.0" prefWidth="411.0" style="-fx-alignment: center; -fx-spacing: 10;">
+               <children>
+                  <Label fx:id="l40" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l41" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l42" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l43" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l44" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="61.0" prefWidth="411.0" style="-fx-alignment: center; -fx-spacing: 10;">
+               <children>
+                  <Label fx:id="l50" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l51" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l52" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l53" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="l54" text="." textFill="#1d1f25">
+                     <font>
+                        <Font size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox style="-fx-alignment: center; -fx-spacing: 5px;">
+         <children>
+            <TextField fx:id="textField" prefHeight="48.0" prefWidth="252.0" />
+            <Button mnemonicParsing="false" onAction="#go" prefHeight="47.0" prefWidth="53.0" text="GO!" />
+         </children>
+      </HBox>
+      <Label fx:id="error" prefHeight="30.0" prefWidth="58.0" textFill="RED" />
+   </children>
+</VBox>

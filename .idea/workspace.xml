@@ -5,17 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b75249dd-e9b2-4249-aefc-d7e54f4a21a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/irgashevsamir/javafx_samples/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/irgashevsamir/javafx_samples/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chat2 (1)/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chat2 (1)/.idea/Chat2 (1).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chat2 (1)/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chat2 (1)/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chat2 (1)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chat2 (1)/ChatClient/ChatClient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chat2 (1)/ChatServer/ChatServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/libraries/ChatFXMLServer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/libraries/ChatFXMLServer1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/libraries/ChatFXMLServer10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/libraries/ChatFXMLServer11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/libraries/ChatFXMLServer2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/libraries/ChatFXMLServer3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/libraries/ChatFXMLServer4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/libraries/ChatFXMLServer5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/libraries/ChatFXMLServer6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/libraries/ChatFXMLServer7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/libraries/ChatFXMLServer8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/libraries/ChatFXMLServer9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatFXMLServer/ChatFXMLServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irgashevsamir/javafx_samples/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irgashevsamir/javafx_samples/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irgashevsamir/javafx_samples/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irgashevsamir/javafx_samples/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irgashevsamir/javafx_samples/ThreadExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/irgashevsamir/javafx_samples/WordleGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/irgashevsamir/javafx_samples/Menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/irgashevsamir/javafx_samples/WordleGame.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/irgashevsamir/javafx_samples/WordleGame.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/Lab9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/PreparedStatementDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/ReadFileLineByLineUsingBufferedReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/lab9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../desk/Factory/Factory.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/irgashevsamir/javafx_samples/GameJoinController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irgashevsamir/javafx_samples/GameJoinController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/irgashevsamir/javafx_samples/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/irgashevsamir/javafx_samples/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/irgashevsamir/javafx_samples/WelcomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/irgashevsamir/javafx_samples/WelcomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/irgashevsamir/javafx_samples/GameJoin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/irgashevsamir/javafx_samples/GameJoin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/irgashevsamir/javafx_samples/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/irgashevsamir/javafx_samples/Menu.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Hm5QnQPzdnPGFgbm2k8WX5y8RA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,9 +80,80 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "/Users/samirirgashev/Desktop/JavaFX_samples/src/main/java/com/irgashevsamir/javafx_samples",
+    "last_opened_file_path": "/Users/samirirgashev/Desktop/JavaFX_samples",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/irgashevsamir/javafx_samples" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WelcomePage">
+    <configuration name="HostPlayer" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="HostPlayer" />
+      <module name="JavaFX_samples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.irgashevsamir.javafx_samples.ThreadExample" />
+      <module name="JavaFX_samples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.irgashevsamir.javafx_samples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WelcomePage" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.irgashevsamir.javafx_samples.WelcomePage" />
+      <module name="JavaFX_samples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.irgashevsamir.javafx_samples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application" singleton="false">
+      <module name="JavaFX_samples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mysql-connector-j-8.0.31.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/mysql-connector-j-8.0.31.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WelcomePage" />
+        <item itemvalue="Application.ThreadExample" />
+        <item itemvalue="JAR Application.mysql-connector-j-8.0.31.jar" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,9 +162,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668877406725</updated>
-      <workItem from="1668877409835" duration="6000" />
+      <workItem from="1668877409835" duration="743000" />
+      <workItem from="1668881011235" duration="26206000" />
+      <workItem from="1669233273067" duration="41000" />
+      <workItem from="1669279488503" duration="52608000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -52,5 +182,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

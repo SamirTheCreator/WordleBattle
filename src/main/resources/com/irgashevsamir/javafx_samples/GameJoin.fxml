@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #32a852;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.irgashevsamir.javafx_samples.GameJoinController">
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #32a852;" stylesheets="@Menu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.irgashevsamir.javafx_samples.GameJoinController">
    <children>
-      <HBox layoutX="205.0" layoutY="201.0" prefHeight="100.0" prefWidth="818.0" style="-fx-alignment: center; -fx-background-color: white; -fx-background-radius: 20;" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="250.0">
+      <HBox layoutX="205.0" layoutY="201.0" prefHeight="100.0" prefWidth="818.0" style="-fx-alignment: center; -fx-background-color: white; -fx-background-radius: 20; -fx-spacing: 20;" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="250.0">
          <children>
-            <TextField fx:id="code" prefHeight="35.0" prefWidth="160.0" />
-            <ToggleButton mnemonicParsing="false" text="Enter Code">
-               <font>
-                  <Font name="Comic Sans MS" size="17.0" />
-               </font></ToggleButton>
+            <TextField fx:id="codeField" prefHeight="35.0" prefWidth="160.0" />
+            <Button mnemonicParsing="false" onAction="#sendTheCode" text="Button" />
          </children>
       </HBox>
+      <Label layoutX="310.0" layoutY="182.0" text="Enter Code" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="35.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

@@ -7,11 +7,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="600.0" prefWidth="800.0" style="-fx-alignment: center; -fx-background-color: #32a852;" stylesheets="@WelcomePage.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.irgashevsamir.javafx_samples.WelcomePageController">
+<VBox fx:id="welcomeVbox" prefHeight="600.0" prefWidth="800.0" style="-fx-alignment: center;" stylesheets="@WelcomePage.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.irgashevsamir.javafx_samples.WelcomePageController">
    <children>
       <Label style="-fx-label-padding: 30;" text="Welcome to Wordle Battle!" textAlignment="CENTER" textFill="WHITE">
          <font>
-            <Font name="Comic Sans MS Bold" size="29.0" />
+            <Font name="Comic Sans MS Bold" size="40.0" />
          </font>
       </Label>
       <VBox prefHeight="118.0" prefWidth="800.0" style="-fx-spacing: 30;">
@@ -20,14 +20,14 @@
                <children>
                   <VBox prefHeight="100.0" prefWidth="311.0" style="-fx-alignment: center; -fx-spacing: 5;">
                      <children>
-                        <TextField fx:id="username" alignment="TOP_LEFT" prefHeight="48.0" prefWidth="311.0" promptText="Username" style="-fx-border-radius: 10%; -fx-alignment: center;">
+                        <TextField fx:id="username" alignment="TOP_LEFT" prefHeight="48.0" prefWidth="311.0" promptText="Username" style="-fx-alignment: center;">
                            <font>
-                              <Font size="18.0" />
+                              <Font name="Comic Sans MS" size="18.0" />
                            </font>
                         </TextField>
-                        <TextField fx:id="password" prefHeight="48.0" prefWidth="311.0" promptText="Password" style="-fx-border-radius: 50; -fx-alignment: center;">
+                        <TextField fx:id="password" prefHeight="48.0" prefWidth="311.0" promptText="Password" style="-fx-alignment: center;">
                            <font>
-                              <Font size="18.0" />
+                              <Font name="Comic Sans MS" size="18.0" />
                            </font>
                         </TextField>
                      </children>
@@ -38,14 +38,14 @@
       </VBox>
       <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-alignment: center; -fx-spacing: 15;">
          <children>
-            <Button fx:id="login_btn" mnemonicParsing="false" onAction="#login" text="Log In" textFill="#32a852">
+            <Button fx:id="login_btn" mnemonicParsing="false" onAction="#login" text="Log In" textFill="WHITE">
                <font>
-                  <Font name="Comic Sans MS" size="18.0" />
+                  <Font name="Comic Sans MS Bold" size="18.0" />
                </font>
             </Button>
-            <Button fx:id="signup_btn" mnemonicParsing="false" onAction="#signup" text="Sign Up" textFill="#32a852">
+            <Button fx:id="signup_btn" mnemonicParsing="false" onAction="#signup" text="Sign Up" textFill="WHITE">
                <font>
-                  <Font name="Comic Sans MS" size="18.0" />
+                  <Font name="Comic Sans MS Bold" size="18.0" />
                </font>
             </Button>
          </children>

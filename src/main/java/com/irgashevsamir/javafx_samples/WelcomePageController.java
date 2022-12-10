@@ -8,8 +8,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.Menu;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 import java.sql.*;
 
 public class WelcomePageController {
@@ -47,16 +50,13 @@ public class WelcomePageController {
                 stmt.setInt(3, 0);
                 int cnt = stmt.executeUpdate();
 
+                menu(e);
             /*
                 After user has succesfully signed up, the stage gets the menu-scene
                 and we pass the username to the class menu-scene to keep track of the
                 user and add points.
             */
-
-
-
             }
-
             conn.close();
         } catch (Exception exception) {
             System.out.println(exception.getClass().getName());
@@ -69,17 +69,35 @@ public class WelcomePageController {
         // Check if username is not taken
         Statement statement = conn.createStatement();
         ResultSet result = statement.executeQuery("select * from Players");
+        boolean usrFnd = false;
         while(result.next()) {
             String _username = result.getString("player_name");
             String _password = result.getString("player_password");
             if (_username.equals(username.getText())) {
                 if (_password.equals(password.getText())) {
                     // menu
-                    SceneController
+                    menu(e);
                 } else error.setText("Password is incorrect");
-            } else error.setText("Username does not exist");
+                usrFnd = true;
+            }
+            if (!usrFnd) error.setText("Username not found");
         }
 
         conn.close();
+    }
+
+    public void menu(ActionEvent e) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Menu.fxml"));
+        root = loader.load();
+
+        MenuController menuController = loader.getController();
+        menuController.setUsername(username.getText());
+
+        stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.setFullScreen(true);
+        stage.show();
+
     }
 }

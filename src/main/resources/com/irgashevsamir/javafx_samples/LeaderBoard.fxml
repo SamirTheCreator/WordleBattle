@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox fx:id="menu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-alignment: center;" stylesheets="@Menu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.irgashevsamir.javafx_samples.LeaderBoard">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-alignment: center; -fx-spacing: 20px;">
+         <children>
+            <Label text="Leaderboard" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="41.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="image" fitHeight="98.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pin-leanne-dlamini-women-women-gold-king-crown-35.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <VBox prefHeight="333.0" prefWidth="800.0" style="-fx-alignment: center;">
+         <children>
+            <Label fx:id="l1" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="l2" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="l3" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="l4" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="l5" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="l6" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="l7" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="l8" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="l9" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="l10" text="Label" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Button mnemonicParsing="false" onAction="#backToMenu" text="Back To Menu" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>

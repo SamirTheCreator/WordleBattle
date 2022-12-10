@@ -1,0 +1,18 @@
+#v {
+    -fx-background-color: linear-gradient(#189D7C,#02C39A);
+}
+
+Button {
+    -fx-background-color: linear-gradient(#1D1F25, #292d38);
+    -fx-background-radius: 15px;
+    -fx-border-style: solid;
+    -fx-border-color: linear-gradient(#292d38, #1D1F25);
+    -fx-border-width: 5px;
+    -fx-cursor: hand;
+    -fx-border-radius: 10px;
+}
+
+Button:hover {
+    -fx-background-color: linear-gradient(rgba(24, 157, 124, 0.9), rgba(2, 195, 154, 0.9));
+    -fx-border-color: linear-gradient(rgba(2, 195, 154, 0.9), rgba(24, 157, 124, 0.9));
+}
